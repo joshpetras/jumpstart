@@ -5,6 +5,7 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+
 /* navbar */
 
 .navbar-nav a {
@@ -29,16 +30,42 @@ html {
   }
 }
 
+
 /* jumbotron */
+
+.jumbotron {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.jumbotron.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+
+.jumbotron h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-top: 11.85rem;
+}
+
+.jumbotron p {
+  margin: auto;
+  max-width: 51.3rem;
+  color: white;
+}
+
 
 
 
 /* featured project section */
 
 
-
 /* projects section */
-
 
 
 /* footer section */
