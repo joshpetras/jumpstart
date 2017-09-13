@@ -1,0 +1,44 @@
+/* general */
+
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* navbar */
+
+.navbar-nav a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: #399bd1;
+  background-color: inherit;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #399bd1;
+  background-color: inherit;
+}
+
+@media (max-width: 768px) {
+  .navbar-header {
+    display: none;
+  }
+}
+
+/* jumbotron */
+
+
+
+/* featured project section */
+
+
+
+/* projects section */
+
+
+
+/* footer section */
