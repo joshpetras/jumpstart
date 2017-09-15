@@ -5,6 +5,28 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+.image-container {
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.blue {
+  color: #399bd1;
+}
 
 /* navbar */
 
@@ -16,12 +38,12 @@ html {
 
 .navbar-default .navbar-nav>.active>a {
   color: #399bd1;
-  background-color: inherit;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a:hover {
   color: #399bd1;
-  background-color: inherit;
+  background-color: transparent;
 }
 
 @media (max-width: 768px) {
@@ -79,6 +101,9 @@ html {
 
 /* featured project section */
 
+.featured-project .image-container {
+  margin-top: 20px;
+}
 
 /* projects section */
 
