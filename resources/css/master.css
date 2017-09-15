@@ -114,5 +114,12 @@ h3 {
 
 /* projects section */
 
+.projects {
+  margin-bottom: 5.85rem;
+}
+
+.projects .image-container img {
+  opacity: 0.6;
+}
 
 /* footer section */
